@@ -1,0 +1,76 @@
+variable - can not change the value
+
+method - cannot override
+
+class cannot subclassed /extend
+
+
+ Types Of Keywords
+ =================
+
+ * static
+ * final
+ * finally
+ * finalize
+ * this
+ * super
+
+  Static
+  ======
+       
+        It is a keyword
+ 
+
+     It can be used in two levels:
+      
+      * Method level
+      * Variable level
+
+  * once we declare the method as a static and variable as a static
+  * without using the object we can call the static method and static variable.
+  * we cannot give static in class level.
+
+   public static void  name(){
+  }  // Method level
+
+
+   static int a = 10; //variable level
+
+ Final
+ =====
+
+  Final is a keyword.
+  It can be access in three levels.
+
+  * class
+  * method
+  * variable
+
+  Final class cannot be Inheritance.
+  Final methos cannot be overridden.
+  Final Variable value cannot be changed.
+
+ this
+ ====
+
+   Current class refrence
+
+ super
+ =====
+   
+     parent class reference
+ 
+ Finally:
+ =======
+      
+      Finally is a Block , It can be used in Exception Handling
+
+ Finalize:
+ ========
+
+      Finalize It is a Method.
+      It removes the Garbage values.
+ 
+ 
+
+

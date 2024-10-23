@@ -1,0 +1,52 @@
+
+ Abstraction
+ ============
+
+  Hiding the Implementation part.
+
+ * How to achive abstraction, by using abstract keyword.
+ * Hiding the implementation part, showing essntial
+
+ Types
+ =====
+      * Partial Abstraction or Abstract Class
+      * Fully Abstraction or Interface
+
+ Abstract Class
+ ==============
+
+  * It supports Abstract method and Non-Abstact Method
+  * we cannot create an object for abstract class because there is no implementation part.
+  * By using "extends" keyword we can access Abstract Class
+  * public abtract keyword is mandatory.
+  * There is no Implementation part only signature part
+
+
+  Abstract Method
+  ===============
+  * Abstract method (Method having only declaration)
+  * definition will be written in Derived class.
+ 
+  Abstract class
+ ================
+
+ * Abstract class (contains atleast one abstract method)
+ * concreate class (class which contains any abstract method)
+ 
+=============================================================================================
+
+Inteface
+========
+  
+  * it supports only abstract method
+  * we cannot create an object for interface because There is no impleentation part
+  * By using "Implements" keyword we can access Interface
+  * Public abstract is default here.
+
+============================================================================================== 
+
+import.java.lang.system;
+
+
+
+

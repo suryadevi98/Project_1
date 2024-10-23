@@ -1,0 +1,40 @@
+ Exception
+ =========
+ 
+* Exception is like a error.
+* When Exception occurs the program will be terminated at the line itself.
+* if exception occurs we can handle by the code of our program.
+
+ Exception Types
+ ===============
+
+* checked or compile time Exception
+* unchecked or Run time Exception
+
+Compile Time Exception
+======================
+
+* File not Found Exception
+* IO Exception
+* Class not found Exception
+* sql Exception
+
+Run-time Exception
+==================
+
+ * Arithmatic  Exception //Infinity Value 10/0
+ * Null pointer Exception //without length get char
+ * Input mismatch Exception //String-int //scan
+ * Array Index out of Bound Exception // Index / 5 / 6 call
+ * String Index out of Bound Exception
+ * Index out of bound Exception //List Index position 0
+ * Number Format Exception
+                   ------*-----
+ * parent class of Exception Throwable
+ * parent class of all cases in java is object
+ * parent class of interface is iterable or search
+ * context
+                  ------*----- 
+ 
+ 
+

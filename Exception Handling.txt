@@ -1,0 +1,35 @@
+ Exception Handling
+ ==================
+
+ * try
+ * catch
+ * finally
+ * throw
+ * throws
+ 
+ Select the Exception line -> R.c -> surroundwith -> Try catch block
+
+ try
+ ===
+     It will try the Exception
+
+ catch
+ =====
+       It will catch the Exception.
+ Finally
+ =======
+      whether the exception occurs or not the finally block will be 
+executed Automatically At the the time.
+
+ throw
+ =====
+
+       * it is inside the method
+       * it will throw the Exception
+       * it will throw only one exception
+
+ throws
+ ======
+       * it is in the method level
+       * it will throw the Exception
+       * Throws it will declare more than one Exception

@@ -1,0 +1,45 @@
+ String
+ ======
+  
+collection of group of words or special characters must enclosed with double quotes.
+
+
+* it is a index based
+* it is a non-primitive Datatype also
+
+String Functions or manipulations
+=================================
+
+1.s.length()
+
+2. s.equals()
+
+3. s.equalsIgnoreCase()
+
+4. s.toUpperCase()
+
+5. s.toLowerCase()
+
+6. s.startsWith()
+
+7. s.endsWith()
+
+8. s.contains()
+
+9. s.indexOf()
+
+10. s.lastIndexOf();
+
+11. s.charAt()
+
+12. s.replace()
+
+13. s.substring()
+
+14. s.isEmpty()
+
+15. s.split()
+
+16. s.trim()
+
+17. s.concat()

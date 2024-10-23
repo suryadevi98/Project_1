@@ -1,0 +1,67 @@
+* Represents the standard output stream direcly connected to cnsole.
+
+import java.lang.System;  - To print the console
+
+* System.out -> we are sending data from code to console using system.out.
+
+===========================================================================================================
+
+Represents the standard input stream direcly connected to cnsole.
+
+import java.util.Scanner; - To print the user input -> To send data from console to code , we need scanner.
+
+* System.in  -> we are sending data from console to code using system.in.
+=========================================================================================================
+ 
+Scanner
+=======
+
+* It is a Class
+
+* Scanner Class present in Java.utill.package
+
+* To get the Input from the user (or) Run-time
+
+    To get Input - System.in
+
+Syntax:
+========
+
+      Scanner refname = new Scanner(system.in);
+
+  where, 
+      
+        Scanner - Class
+        System.in - To take the Input from Consle
+        System.out - To print the Consle
+
+Scanner Methods:  (39)
+================
+
+   For String:
+
+nextstring
+
+
+next() : 
+         
+         Accepts one value
+         After the Space it won't Accept
+
+nextline() :
+
+          Accepts more than one value
+          After the space it will Accept
+
+nextInt() :
+
+          It accepts A Integer value Like whole numbers
+
+nextfloat() :
+ 
+          It accepts A Integer value like whole numbers
+
+next().charAt(3	) :
+
+           It accepts a single Charater
+==============================================================================================

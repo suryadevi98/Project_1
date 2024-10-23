@@ -1,0 +1,133 @@
+
+ Java History
+ ============
+
+               Java Intro - James Gosling - 1991 to 1994
+
+               Developed by sun Microsystem - 1995
+
+ Naming History
+ ==============
+
+          First Designed in Embedded System[H+S] [Hardware + Software] in the name of "oak" in 1991 and renamed as java in 1995.
+
+              1.oak  - tree name
+         
+              2.Java - coffee
+
+
+ 1. What is Java?
+    =============
+
+   * popular Programming language
+  
+   * Writting, compiling, and debugging is easy 
+ 
+   * it can be reused.
+
+
+ 2. Java Features (or) Importance of Java (or) why we go For Java?
+    ==============================================================
+
+   * Platform Independent (Java Compiler Converts Source code into byte code can be executed in any platform )
+
+   * Open source (Free of cost)
+
+   * Secured (Virtual firewall between application and the computer)
+
+   * Multi - Threaded (more task can be completed at a time and multitasking - different task can be completed at a time)
+   
+   * portable (Write once run anywhere) WORA
+
+3. Java Architecture
+   =================
+
+       JDK : (JAVA DEVELOPMENT KIT)
+
+   * To develop Java code, JDK has to be Install
+
+   * It has development kit
+
+   * JDK version 1.0 to 1.16, 1.17 in progress
+
+   * Stand Version is 1.8
+
+      JRE : (JAVA RUNTIME ENVIRONMENT)
+
+   * it helps to run the program
+
+   * it contains predefined library files(.class Files)
+
+      JVM  : (JAVA VIRTUAL MACHINE)
+
+   * it is used for memory allocation
+
+   * it is not Physical Exists
+
+        JDK = Developmet Kit + JRE
+
+        JRE = Predefined Files + JVM
+
+ 4. Coding Standards
+    ================
+   
+     There are two types of coding standards 
+
+   * Pascal   * Camel
+
+ PASCAL
+ ======
+
+    Every words first letter must be in capital
+
+  Eg: Employee Details Company  (used in project name and class name)
+
+ CAMEL
+ =====
+
+    Expect first word remaining words first letter must be capital
+
+ Eg: employee Details Java Company (used in object method and variable)
+
+
+ Eclipse project Creation
+ ========================
+
+  File -> New (ctrl+N) -> Java -> Java Project - Project name (pascal) -> Next -> Finish
+
+ Package Creation
+ ================
+
+    src(R.C) - New - Package - Name - Finish
+
+ Class Creation
+ ==============
+
+     Package (R.C) -> New -> Class
+
+ 5. Access Specifier
+    ================
+
+  Public : Global level access (inside and outside the package)  private surya
+
+  Private : Class level Access (Inside the class)
+
+  Protected : Same like Public but use "extends" Keyword
+
+  Default : Package level Access
+
+ 6. Garbage Collection
+    ==================
+
+ * un-referenced object are detected automatically.
+
+ * un-wanted or un-used memory are deleted automatically
+
+ * it is possible only in Java not in c, c++ etc..
+
+     Eg : Finalize();
+
+ Sample Program
+ ==============
+
+Project -> Package -> Class -> method -> data

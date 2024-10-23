@@ -1,0 +1,40 @@
+
+
+ Array
+ =====
+  * Storing a Multiple values in a single variable.
+  * It is a non-primitive Datatype.
+
+ Syntax
+ ======
+
+      Datatype Variable name[] = new Datatype[length]
+
+ Example
+ =======
+
+              int a[] = new int [5]; -> 0 1 2 3 4
+               
+                   [3] -> We give length
+
+              length : 1 2 3
+ 
+              Index  : 0 1 2
+
+ Features
+ ========
+
+   * It supports similar Datatype.
+   * It is Index Based.
+   * Index starts from 0 to n-1
+   * where n = length
+
+
+ Dis Advantages
+ ==============
+
+   * It will not support dissimilar Datatype.
+   * It has Fixed length.
+   * It has high memory wastage.
+
+  

@@ -1,0 +1,34 @@
+
+Constructor:
+============
+
+      -> Variable Initiaize
+      -> call -> objet Create, constructor is a function only
+
+  * Class name and Constructor name will be same.
+
+  * when we create an object for a class the default constructor will be executed automatically at the time itself.
+
+  * It will not have any return type (void)
+  
+  * it will support method overloading and does not support method overriding.
+
+Types:
+======
+
+  * Default Constructor
+  * No argument Constructor
+  * parameterized Constructor
+
+
+Syntax:
+=======
+   
+
+  public class Constructor{
+
+     Constructor(){
+      }
+
+
+  }

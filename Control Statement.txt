@@ -1,0 +1,183 @@
+
+      > greaterthan
+      < lessthan
+
+Control Statement:
+===================
+
+1. looping statement
+   
+   * forloop
+   * while loop
+   * do-while loop
+
+
+2. conditional statement
+
+   * if
+   * eleif
+   * else
+   * nested_if
+   * switch
+     
+
+3. unconditional / jump statement
+
+  * break
+  * cotinue
+
+===========================================
+
+1. looping statement
+   
+   * forloop
+   * while loop
+   * do-while loop
+
+  *for loop
+  =========
+
+      for (initialization ; condition; Iteration){
+    Action
+    }
+    
+
+    initialization  - Starting point
+    condition - end point
+    iteration - flow or update
+
+   forward -> increment -> ++
+   backward - decrement -> --
+
+  *while loop:
+   ===========
+
+          Entry level condition checking.
+  Syntax
+=========
+  int number = 1; // Initialization
+
+        while (number <= 5) { // Condition
+            System.out.println(number); // Code block
+            number++; // Update
+        }
+
+  *do-while loop:
+  ===============
+
+          Exit level Condition checking.
+
+  int number = 1; // Initialization
+
+        do {
+            System.out.println(number); // Code block
+            number++; // Update
+        } while (number <= 5); // Condition
+    }
+ }
+============================================================
+
+2. conditional statement
+
+   * if
+    ====
+     The statement gets executed only when the given condition is true
+     if the condition if false then the statement inside if stateent body are comletely ignored.
+ Syntax
+ ======
+     if (condition) {
+    // Code block executed if condition is true
+    }
+
+   * ifelse
+     =====
+      The statemnt inside "else" would execute if the condition is false.
+
+    if (condition) {
+    // Code block executed if the condition is true
+    } else {
+    // Code block executed if the condition is false
+    }
+
+   * elseif
+     =========
+     The statement is used to when we need to check multiple conditions.
+     However we can have mulitiple "else if" it is also known as if else ladder.
+
+     if (condition1) {
+    // Code block executed if condition1 is true
+     } else if (condition2) {
+    // Code block executed if condition1 is false and condition2 is true
+    } else if (condition3) {
+    // Code block executed if condition1 and condition2 are false and condition3 is true
+     } else {
+    // Code block executed if none of the above conditions are true
+     }
+
+   * nested_if
+     ==========
+     A nested if-else statement is a control flow structure in programming where one if-else statement is placed inside another if-else statement. 
+     This allows you to perform more complex decision-making by adding layers of conditions.
+
+   
+    if (condition1) {
+    // Code block executed if condition1 is true
+    if (condition2) {
+        // Code block executed if condition2 is true
+    } else {
+        // Code block executed if condition2 is false
+    }
+    } else {
+    // Code block executed if condition1 is false
+    
+    }
+  
+
+   * switch
+    ========
+    Switch case statement is used when we have number of options (or choice) and we may need to 
+perform a different task for each choice.
+
+    switch (expression) {
+    case value1:
+        // Code block executed if expression equals value1
+        break;
+    case value2:
+        // Code block executed if expression equals value2
+        break;
+    // More cases as needed
+    default:
+        // Code block executed if none of the cases match
+}
+
+=============================================================================================================================================
+
+Juping Statment or unoditional statement  -> used in iterative(loop) statement
+========================================
+
+  *break : it will exit from the loop. whenever 
+
+  *continue : it will skip the particular iteration.
+
+pre - increment :
+              ++ varialename -> 1+(variablename)
+
+post - Increment :
+            variablename++ - (variablevalue)+1
+             
+             In step it will add the value.
+============================================================================================================================================  
+
+logical operators
+=================
+
+  && - Both conditions must be satisfied.
+
+  || 	 either one condition satisfied.
+======================================================================================
+
+
+
+
+
+

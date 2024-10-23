@@ -1,0 +1,57 @@
+
+Polymorphism
+=============
+
+   one task can be perform (or) completed in many ways.
+
+         Poly - Many
+         Morphism - forms or ways
+
+Types:
+========
+
+   * Method overloading
+   * Method overriding
+
+
+Method Overloadig
+=================
+
+Method overloadig or Fuction Overloading
+
+   * In the same class the methods name wil be same.
+   * But Arguements (or) Parameters will be Different.
+
+    Depend upon,
+       
+                * Datatype
+                * Datatype order
+                * Datatype count
+
+It is also known as compile time polymorphism or static bindig.
+
+
+========================================================================================
+
+Method Overriding
+=================
+
+   * Class names are different but methods name and arguments names are same.
+   * It is also known as Runtime polymorphism or dyamic Binding.
+
+Rules For Java Method overriding
+=================================
+
+   * The method must have the same name as in the parent class
+   * The Method must have the same parameter as in the parent class.
+   * A relationship (Inheritace).
+==========================================================================================
+
+
+
+
+
+
+
+
+

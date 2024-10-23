@@ -1,0 +1,91 @@
+  
+ String Types
+ ============
+  Strig is a Class or non primitive datatype
+  -> java.lang package
+
+  Mutable 
+          Immutable
+                    Literal 
+                            Non-Literal
+
+
+ Immutable
+ =========
+
+  Syantax
+  =======
+   
+           String refname = "rohini"
+
+ When we Do, 
+
+           Duplicate value -> It will share the memory
+           concordination  -> it will create the new memory
+
+           //S1 = S2 + S3
+
+ String Constant pool  S2 = S.concat(S1);
+
+
+ Mutable
+ =======
+
+           String Buffer and String Builder.
+
+ Syntax
+ ======
+   
+           StringBuffer refname  = new StringBuffer(ABC);
+           StringBuilder refname = new StrigBuilder(ABC);
+
+ When we do,
+           
+           duplicate value -> it will create new memory
+           Append -> The memory will be shared
+           //S1 = S1.append(S2)
+
+ String Buffer
+ =============
+
+       * it is a mutable
+       * and it is synchronized ...//offline tt
+       * one by one process, it is a thread safe, but it is a slow process
+
+ Thread
+ ======
+     
+      Thread allows a program to oprate more efficiently by doing multiple things at the same time.
+                            
+     StringBuffer refname  = new StringBuffer(ABC);
+     obj = obj.append("world");
+     sop(obj);
+         
+
+ String Builder
+ ==============
+       
+       * it is a mutable.
+       * and it is Asynchronized.
+       * it is not a thread safe. but it is a fast process.
+
+ Literal String (immutable)
+ =========================
+
+       * it stored inside the heap memory.
+       * it will share the memory if same (Duplicate Value)
+  Syntax
+  ======
+
+          String S = ""; -> without new keyword
+
+ Non Literal String (mutable)
+ ============================
+
+       * it stored in heap memory 
+       * it create a new memory even if same(Duplicate) Value
+
+  Syntax
+  ======
+      
+        String s = new String("");

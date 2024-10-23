@@ -1,0 +1,59 @@
+
+  DataTypes
+  =========
+
+
+  To specify the type of Data.
+
+ Syntax 
+ ======
+
+   Datatype Variablename = value;
+
+
+ Two Types:
+ =========
+  primitive
+  =========
+
+   A Variable  can store only one value.
+
+   Predefined Datatype
+
+  There is no additional methods
+
+  Store in memory reference
+
+  Types: 8 Types - byte, ort, int, long, float uble, char, boolean
+
+ Non-primitive
+ =============
+
+  A Variable can store group of values
+
+  Based on class
+
+  it i refrence variable (or) object reference
+ 
+  tore based on refrence
+
+ Types : 2 types - Array and String           "csadvas124WD5Q"
+ 
+
+   DataType                  Memory size
+    
+   byte                       1(8bits)
+
+   short                     2(16bits)
+
+   int                       4(32 bits)
+
+   long                      8(64 bits)
+
+   float                     4(32 bits)
+
+   double                    8(64 bits)
+
+   Char                        2
+
+   Bollean                    True/False

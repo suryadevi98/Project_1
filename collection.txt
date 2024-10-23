@@ -1,0 +1,220 @@
+ collection
+ ==========
+  -> java.util package
+  -> 1.2 version
+
+   * A group of indivialual objects is called collection.
+   * It is an Interface.
+   * It supports Dissimilar Datatype.
+   * It has low memory Wastage.
+   * It doesn't have any fixed length.
+
+ Types
+ =====
+
+  * List (Interface)
+  * Set (Interface)
+  * Map (Separated Interface)
+
+ List
+ ====
+
+ * It is an Interface
+ * It is a Index based.
+ * It does allow duplicate Values.
+ * It prints in Insertion order.
+
+ Syntax
+ ======
+
+  classname refname = new classname();
+ List<wrapperclass> refname = new (types of list)<wrapperclass>();
+
+where
+      Types of List -> class
+      <> -> Generics -> For Type safely.
+=======================================================================
+ List Types
+ ==========
+
+ 1.Array List(class)
+ 2.Linked List(class)
+ 3.vector List(class)
+
+ Array List
+ ==========
+ Syntax
+ ======
+ List <wrapperclass> refname = new ArrayList<wrapperclass>();
+
+ Def
+ ===
+
+ * Searching and Retriving is very easy
+ * Insertion and Deletion is Difficult.
+ * Asynchronized
+ * Thread is not safe...But fast process.
+
+ Linked List
+ ===========
+ Syntax
+ ======
+ List <Wrapperclass> refname = new LinedList<wrapperclass>();
+
+ Def
+ ===
+
+ * Insertion and Deletion is Easy.
+ * searching and retriving is Difficult.
+ * Asynchronized.
+ * There is not safe...but fast process.
+
+ Vector List
+ ===========
+ Syntax
+ ======
+ List <wrapperclass> refname = new vector<wrapperclass>();
+
+ Def
+ ===
+    
+ * Synchronized
+ * Thread safe...But it is a slow process.
+ 
+ List Methods
+ ============
+ 
+ *add *size() *get() *set() *remove() *Indexof() *contains() *clear() *addAll()
+ *retainAll() *removeAll() *For loop
+=======================================================================================
+
+ Set (Interface)
+ ===============
+
+  * It is a Interface
+  * It does not have any specific order
+  * It does not allow Duplicate Values
+  * It is a Value based
+
+ Syntax
+ ======
+ set <wrapperclass> refname = new Typeofset <wrapperclass>();
+
+ Types
+ =====
+
+ * Hashset
+ * LinkedHashset
+ * Treeset
+
+ Hashset
+ =======
+  
+  * It prints in random order
+  * It will not allow Duplicate Value
+  * it will allow single null value, not a Duplicate null values
+
+ LinkedHashset
+ =============
+ 
+  * It prints in Insertion order
+  * It will not allow Duplicate Values.
+  * It will not allow even single null value.
+
+ Treeset
+ =======
+
+ * it prints in Ascending order.
+ * it will not allow duplicate values.
+ * it will not allow even single null value.
+============================================================================
+
+ Map (Interface)
+ ===============
+ * representing the group of object
+ * It is a Key and value pair
+         Key+value = one Entry
+
+ Key
+ ===
+
+ * It will not allow Duplicate it can be override.
+ * It will allow override null [duplicate]
+
+ Value
+ =====
+
+ * The value will allow duplicate
+ * The value will allow the both null
+  Map -> (curly bases) {}
+
+ Syntax
+ ======
+  Map<key,value> refname = new TypesofMap <key,value>();
+
+ Example
+ =======
+  Map<integer,String> m = new Hashmap<Integer,String>();
+ 
+ Types
+ =====
+ * Hashmap(c);
+ * LinkedHashmap(c);
+ * Treemap(c);
+ * Hashtable(c);
+ * Concurrent Hashmap(c)
+
+ Hashmap(c)
+ ==========
+
+  * it is a random order (based on key)
+  * Key will allows the only one Null. 
+  * value allow the duplicate null.
+
+ Linked Hashmap()
+ ================
+
+ * Insertion order (based on key)
+ * key will allows the only one null
+ * value allow the duplicate null
+ 
+ syntax
+ ======
+
+  Map<Integer,String> ex = new LinkedHashmap<Integer,String>();
+
+ Treemap
+ =======
+  
+  * Ascending order (based on key0
+  * key won't allow null (even single null)
+  * value allow the dupicate value
+
+ syntax
+ ======
+
+ Map<Integer,String> ex = new Treemap<Integer,String>();
+
+ Hashtable
+ =========
+   
+  * Random order
+  * Both key and values are ignore the null.
+
+ syntax
+ ======
+
+ Map<Integer,String> ex = new Hashtable<Integer,String>();
+
+ concurrent hashmap
+ ==================
+
+ * Random orderer
+ * Both key and values are ignore the null
+
+ syntax
+ ======
+
+ Map<Integer,String> ex = new concurrenthashmap<Integer,String>();
+====================================================================================
+
